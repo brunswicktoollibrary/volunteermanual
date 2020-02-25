@@ -1,0 +1,76 @@
+################################# Default configuration ###################
+# provide your domain here
+baseURL = "https://examplesite.com/"
+# theme
+theme = "dot"
+# site title
+title = "Brunswick Tool Library"
+# desable language
+disableLanguages = []
+
+
+################################# navigation ################################
+[[menu.main]]
+name = "Faq"
+url = "6-faq"
+weight = 1
+
+[[menu.main]]
+name = "Quick Reference"
+url = "1-intro"
+weight = 2
+
+
+
+
+############################# Default Parameters ##########################
+[params]
+# logo is for all page
+logo = "favicon.png"
+# logo white is for homepage logo, you can use colorful logo too...
+logo_white = ""
+# when logo is empty, it will shown your site title
+
+# customize color
+primary_color = "#2a4861"
+body_color = "#f9f9f9"
+text_color = "#636363"
+text_color_dark = "#242738"
+white_color = "#ffffff"
+light_color = "#f8f9fa"
+
+# font family
+font_family = "lato" # Choose font family from : https://fonts.google.com/
+
+# contact form action
+contact_form_action = "#" # contact form works with : https://formspree.io
+
+
+############################## social links ##############################
+
+
+################################ English Language ######################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+weight = 1
+home = "Home"
+copyright = "The Hugo Documents are copyright © [gethugothemes](https://gethugothemes.com/) 2020."
+
+# banner
+[Languages.en.params.banner]
+title = "Brunswick Tool Library Volunteer Manual"
+subtitle = "How to do stuff proper at the Brunswick Tool Library"
+bg_image = "images/banner.jpg"
+placeholder = "You can search here, or click below"
+
+# call to action
+[Languages.en.params.cta]
+enable = true
+title = "Didn't find the answer to your question?"
+content = "Chuck an email to the volunteer coordinator and let them know."
+# call to action button
+[Languages.en.params.cta.button]
+enable = true
+label = "contact us"
+link = "contact"
